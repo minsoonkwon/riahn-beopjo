@@ -86,6 +86,24 @@
       },
       {
         "@type": "Offer",
+        "name": "Head spa (20 min)",
+        "price": 40000,
+        "priceCurrency": "KRW"
+      },
+      {
+        "@type": "Offer",
+        "name": "Head spa (40 min)",
+        "price": 80000,
+        "priceCurrency": "KRW"
+      },
+      {
+        "@type": "Offer",
+        "name": "Head spa (60 min)",
+        "price": 120000,
+        "priceCurrency": "KRW"
+      },
+      {
+        "@type": "Offer",
         "name": "Shiseido treatment, 3 sessions Cash",
         "price": 250000,
         "priceCurrency": "KRW"
@@ -124,7 +142,7 @@
       "name": "Do you have Shiseido treatment packages?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes. A Shiseido treatment is ₩100,000 per session; 3 sessions are ₩300,000, or ₩250,000 in cash and ₩270,000 by card. 5 sessions + 1 free (6 in total) are ₩500,000."
+        "text": "Yes. A Shiseido treatment is ₩100,000 per session.<br>3 sessions: ₩300,000<br>(₩250,000 cash · ₩270,000 card)<br>5 sessions + 1 free (6 in total):<br>Regular price ₩600,000 Sale price ₩500,000"
       }
     },
     {
@@ -132,7 +150,7 @@
       "name": "How much is scalp care?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Scalp care is ₩35,000 and deep scalp care is ₩50,000. We also offer cut + scalp care and cut + head spa sets."
+        "text": "Scalp care ₩35,000<br>Deep scalp care ₩50,000<br>Head spa 20 min ₩40,000<br>Head spa 40 min ₩80,000<br>Head spa 60 min ₩120,000<br>We also offer cut + scalp care and cut + head spa sets."
       }
     }
   ]
@@ -300,7 +318,7 @@
 <link rel="icon" href="/favicon.ico" sizes="any">
 <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32.png">
 <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
-<link rel="stylesheet" href="/css/style.css?v=cbfcabbf">
+<link rel="stylesheet" href="/css/style.css?v=1b75e980">
 </head>
 <body>
 
@@ -354,7 +372,7 @@
     <div>
       <h2><span class="ks">Shiseido & AVEDA treatments</span><br><span class="ks"><em>and the EN FORET head spa</em></span></h2>
       <p>As a Shiseido concept salon, we offer basic, pre- & post-service and premium treatments, Shiseido & AVEDA treatment, repair treatment and Shiseido treatment packages (3 sessions, or 5 + 1 free).</p>
-      <p>For the scalp we offer scalp care and deep scalp care, and you can consult about the EN FORET head spa, custom wigs, top pieces, hair extensions for volume and scalp covering all in one place. Cut sets are on <a class="text-link" href="/en/cut/">Haircuts</a>.</p>
+      <p>For the scalp we offer scalp care, deep scalp care and head spa courses (20, 40 and 60 min), and you can consult about the EN FORET head spa, custom wigs, top pieces, hair extensions for volume and scalp covering all in one place. Cut sets are on <a class="text-link" href="/en/cut/">Haircuts</a>.</p>
       <div class="recommend-box">
         <h3>Recommended for</h3>
         <ul><li>Guests who want to care for hair damaged by perms or color with a repair treatment</li><li>Guests who want regular Shiseido treatments with a package</li><li>Guests who want to care for the scalp with scalp care or a head spa</li><li>Guests who want to consult about custom wigs, top pieces or scalp covering</li></ul>
@@ -370,7 +388,6 @@
       <h2>Treatment & Scalp Care Prices</h2>
     </div>
     <!-- 원장 확인 전: 클리닉 · 두피케어 가격표 (요청서 ⚠ 표시 · 값은 요청서 그대로) -->
-    <!-- 확인 필요: 시술 시간 (요청서에 소요시간 없음) -->
     <h3 class="price-group">Hair Treatments</h3>
     <table class="price-table">
       <thead><tr><th scope="col">Service</th><th scope="col">Price</th></tr></thead>
@@ -388,6 +405,9 @@
       <tbody>
         <tr><td><span class="name">Scalp care</span></td><td class="price">₩35,000</td></tr>
         <tr><td><span class="name">Deep scalp care</span></td><td class="price">₩50,000</td></tr>
+        <tr><td><span class="name">Head spa</span><span class="time">Time: 20 min</span></td><td class="price">₩40,000</td></tr>
+        <tr><td><span class="name">Head spa</span><span class="time">Time: 40 min</span></td><td class="price">₩80,000</td></tr>
+        <tr><td><span class="name">Head spa</span><span class="time">Time: 60 min</span></td><td class="price">₩120,000</td></tr>
       </tbody>
     </table>
     <h3 class="price-group">Shiseido Treatment Packages</h3>
@@ -395,7 +415,7 @@
       <thead><tr><th scope="col">Service</th><th scope="col">Price</th></tr></thead>
       <tbody>
         <tr><td><span class="name">Shiseido treatment, 3 sessions</span><span class="desc">₩100,000 per session · ₩300,000 for 3</span></td><td class="price"><span class="opt">Cash ₩250,000</span><span class="opt">Card ₩270,000</span></td></tr>
-        <tr><td><span class="name">Shiseido treatment, 5 sessions + 1 free (6 in total)</span><span class="desc">₩100,000 per session</span></td><td class="price">₩500,000</td></tr>
+        <tr><td><span class="name">Shiseido treatment, 5 sessions + 1 free (6 in total)</span><span class="desc">₩100,000 per session</span></td><td class="price"><del class="price-was"><span class="sr-only">Regular price </span>₩600,000</del> <span class="sr-only">Sale price </span>₩500,000</td></tr>
       </tbody>
     </table>
     <ul class="price-note"><li>The 3-session Shiseido package is ₩250,000 in cash or ₩270,000 by card.</li><li>Cut + scalp care / head spa sets are on <a class="text-link" href="/en/cut/">Haircuts</a>.</li><li>Custom wigs, hair extensions for volume, top pieces and scalp covering are Choi Mina's specialties.</li></ul>
@@ -429,11 +449,11 @@
       </details>
       <details>
         <summary><span class="q">Do you have Shiseido treatment packages?</span></summary>
-        <div class="faq-a">Yes. A Shiseido treatment is ₩100,000 per session; 3 sessions are ₩300,000, or ₩250,000 in cash and ₩270,000 by card. 5 sessions + 1 free (6 in total) are ₩500,000.</div>
+        <div class="faq-a">Yes. A Shiseido treatment is ₩100,000 per session.<br>3 sessions: ₩300,000<br>(₩250,000 cash · ₩270,000 card)<br>5 sessions + 1 free (6 in total):<br><del class="price-was"><span class="sr-only">Regular price </span>₩600,000</del> <span class="sr-only">Sale price </span>₩500,000</div>
       </details>
       <details>
         <summary><span class="q">How much is scalp care?</span></summary>
-        <div class="faq-a">Scalp care is ₩35,000 and deep scalp care is ₩50,000. We also offer cut + scalp care and cut + head spa sets.</div>
+        <div class="faq-a">Scalp care ₩35,000<br>Deep scalp care ₩50,000<br>Head spa 20 min ₩40,000<br>Head spa 40 min ₩80,000<br>Head spa 60 min ₩120,000<br>We also offer cut + scalp care and cut + head spa sets.</div>
       </details>
     </div>
     <p class="center-cta"><a class="text-link" href="/en/faq/">See all FAQ →</a></p>

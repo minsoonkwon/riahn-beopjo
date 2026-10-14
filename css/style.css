@@ -487,3 +487,8 @@ h1 .ks,h2 .ks{text-wrap:balance}
 @media(min-width:960px){.gnb{gap:16px}}
 /* 일본어는 PC 메뉴 글자가 길어 로고 옆 지점명을 숨김 (푸터에 표기) */
 @media(min-width:960px){html[lang="ja"] .logo .branch{display:none}}
+
+/* 정상가 빨간 X 표시 + 행사가 (2026-10-14 원장 요청) */
+.price-was{display:inline-block;padding:0 3px;margin-right:4px;color:var(--ink-soft);font-weight:500;text-decoration:none;
+  background:linear-gradient(to top right,transparent calc(50% - 1px),#D33B3B calc(50% - 1px),#D33B3B calc(50% + 1px),transparent calc(50% + 1px)),
+             linear-gradient(to bottom right,transparent calc(50% - 1px),#D33B3B calc(50% - 1px),#D33B3B calc(50% + 1px),transparent calc(50% + 1px))}
